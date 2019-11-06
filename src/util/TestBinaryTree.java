@@ -25,17 +25,17 @@ public class TestBinaryTree {
         rootR.setLeftTreeNode(new TreeNode(6));
 
         rootR.setRightTreeNode(new TreeNode(7));
-        // System.out.println("+++++++++++++++++++++++++++++++++++");
-        // binaryTree.frontShow();
-        //  System.out.println("++++++++++++++++++++++++++++++++++++");
-        //  binaryTree.midShow();
-        //  System.out.println("++++++++++++++++++++++++++++++++");
-        //   binaryTree.afterShow();
-        //    System.out.println("++++++++++++++++++++++++++++++++++++");
-        // TreeNode result = binaryTree.frontSearch(10);
-        //System.out.println(result);
-        // System.out.println("+++++++++++++++++++++++++++++++++++++++++");
-        //   binaryTree.deleteNode(1);
+//        System.out.println("+++++++++++++++++++++++++++++++++++");
+//        binaryTree.frontShow();
+//        System.out.println("++++++++++++++++++++++++++++++++++++");
+//        binaryTree.midShow();
+//        System.out.println("++++++++++++++++++++++++++++++++");
+//        binaryTree.afterShow();
+//        System.out.println("++++++++++++++++++++++++++++++++++++");
+//        TreeNode result = binaryTree.frontSearch(10);
+//        System.out.println(result);
+//        System.out.println("+++++++++++++++++++++++++++++++++++++++++");
+//        binaryTree.deleteNode(1);
 
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
 

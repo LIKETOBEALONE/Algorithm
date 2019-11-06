@@ -1,9 +1,15 @@
 package util;
 
-public class Node {
+import java.util.Collection;
+import java.util.Collections;
+
+
+public class Node  implements Comparable<Node>{
 
     int data;
     Node next;
+    Node right;
+    Node left;
 
     public Node(int data) {
         this.data = data;
@@ -42,6 +48,8 @@ public class Node {
         }
     }
 
+
+
     public void insert(Node node) {
         Node nextNext = next;
         this.next = node;
@@ -55,4 +63,8 @@ public class Node {
     }
 
 
+    @Override
+    public int compareTo(Node o) {
+        return this.data-o.data;
+    }
 }
